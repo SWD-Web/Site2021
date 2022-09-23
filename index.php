@@ -997,7 +997,7 @@
                         <h4>Useful Links</h4>
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <a href="./index.php" style="text-decoration: none;">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="./team/index.html" style="text-decoration: none;">Our Team</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="./team/team_2022/index.html" style="text-decoration: none;">Our Team</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="./Calender/cal.html" style="text-decoration: none;">Event Schedule</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="./flagship/flagship.html" style="text-decoration: none;">Flagship Events</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="./GP2/index.php" style="text-decoration: none;">GP2 Activities</a></li>
