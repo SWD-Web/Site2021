@@ -40,14 +40,15 @@ CREATE TABLE `activity` (
 --
 
 INSERT INTO `activity` (`a_id`, `a_name`, `a_slots`, `m_cnt`, `f_cnt`) VALUES
-(1, 'Saarthi', 70, 36, 30),
-(2, 'Utkarsh', 190, 90, 100),
-(3, 'Go Green', 0, 0, 0),
-(4, 'Udaan', 70, 30, 40),
-(5, 'Aavishkar', 50, 0, 0),
-(6, 'Animal Rescue', 0, 0, 0),
-(7, 'Swaccha Pune', 0, 0, 0),
-(8, 'Night Petroling', 0, 0, 0);
+(1, 'Aatmabodh 2022-23', 2000, 1000, 1000);
+-- (1, 'Saarthi', 70, 36, 30),
+-- (2, 'Utkarsh', 190, 90, 100),
+-- (3, 'Go Green', 0, 0, 0),
+-- (4, 'Udaan', 70, 30, 40),
+-- (5, 'Aavishkar', 50, 0, 0),
+-- (6, 'Animal Rescue', 0, 0, 0),
+-- (7, 'Swaccha Pune', 0, 0, 0),
+-- (8, 'Night Petroling', 0, 0, 0);
 
 --
 -- Indexes for dumped tables

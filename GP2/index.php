@@ -625,7 +625,7 @@
                                                     <form action="" method="POST">
                                                         <!-- autocomplete="off" -->
                                                         <div class="modal-header">
-                                                            <h5 class="modal-title" id="MuskaanModalToggleLabel">GP2
+                                                            <h5 class="modal-title" id="MuskaanModalToggleLabel">Aatmabodh 2022
                                                                 Registration Form</h5>
                                                             <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                         aria-label="Close"></button> -->
@@ -657,6 +657,7 @@
                                                             <select name="u_year" placeholder="Year" id="sel">
                                                                 <option value="" selected disabled hidden>Academic Year</option>
                                                                 <option value="Second">Second</option>
+                                                                <option value="Third">Third</option>
                                                             </select>
                                                             <select name="u_div" placeholder="Division" id="sel">
                                                                 <option value="" selected disabled hidden>Division</option>
