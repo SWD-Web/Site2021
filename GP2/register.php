@@ -207,7 +207,8 @@ if (isset($_POST['submit']) && $_POST['submit'] != "") {
                 // $row    = mysqli_fetch_row($result);
 
                 echo "<script>";
-                echo "alert('Record Successfully Inserted');";
+                // echo "alert('Record Successfully Inserted');";
+                echo "alert('Successfully Registered for Aatmabodh 2022');";
                 echo "</script>";
             }
         }
