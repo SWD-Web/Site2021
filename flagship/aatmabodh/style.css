@@ -1137,6 +1137,41 @@ body {
     transform: rotate(360deg);
   }
 }
+
+/*--------------------------------------------------------------
+# Sponsors
+--------------------------------------------------------------*/
+.sponsors
+{
+  position: relative;
+  padding-bottom: 10px;
+}
+.sponsors::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 5px;
+  background: #d4322b;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+.sponsors h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.sponsors p {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #9195a2;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
