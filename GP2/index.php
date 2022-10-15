@@ -547,7 +547,8 @@
     </style>
 </head>
 
-<body oncontextmenu="return false" class="body" style="overflow-y: hidden;">
+<!-- <body oncontextmenu="return false" class="body" style="overflow-y: hidden;"> -->
+<body class="body" style="overflow-y: hidden;">
 
     <?php
     include 'config.php';
@@ -589,18 +590,18 @@
                                     </p>
                                     <strong> -->
                                         <!-- Unsure status modal -->
-                                        <div class="modal fade " id="UnsureStatusModal" aria-hidden="true" aria-labelledby="MuskaanModalToggleLabel" tabindex="-1">
+                                        <!-- <div class="modal fade " id="UnsureStatusModal" aria-hidden="true" aria-labelledby="MuskaanModalToggleLabel" tabindex="-1">
                                             <div class="modal-dialog modal-dialog-centered">
                                                 <div class="modal-content" style="z-index: 4;">
-                                                    <form action="fetch_unsure_status.php" method="POST">
+                                                    <form action="fetch_unsure_status.php" method="POST"> -->
                                                         <!-- autocomplete="off" -->
-                                                        <div class="modal-header">
+                                                        <!-- <div class="modal-header">
                                                             <h5 class="modal-title" id="MuskaanModalToggleLabel">GP2
-                                                                Registration Form</h5>
+                                                                Registration Form</h5> -->
                                                             <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                         aria-label="Close"></button> -->
 
-                                                            <a class="btn-close" data-bs-dismiss="modal" aria-label="close" href="#UnsureStatusModal" role="button"></a>
+                                                            <!-- <a class="btn-close" data-bs-dismiss="modal" aria-label="close" href="#UnsureStatusModal" role="button"></a>
                                                         </div>
                                                         <div class="modal-body">
                                                             <input type="text" name="u_email" placeholder="Institute Email Id" pattern="[a-zA-Z0-9._%+-]+@vit.edu$">
@@ -611,24 +612,25 @@
                                                     </form>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
 
-                                        <button data-bs-toggle="modal" href="#MuskaanModalToggle">REGISTER HERE</button>
+                                        <!-- <button data-bs-toggle="modal" href="https://swdvit.herokuapp.com/">REGISTER HERE</button> -->
+                                        <button><a href="https://swdvit.herokuapp.com/">REGISTER HERE</a></button>
                                         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                        <button data-bs-toggle="modal" onclick="location.href = './form/index.php';" formtarget="_blank">GP2 RESULT STATUS</button>
+                                        <button data-bs-toggle="modal" onclick="location.href = './form/index.php';" formtarget="_blank"><a>GP2 RESULT STATUS</a></button>
 
                                         <!--  -->
 
-                                        <div class="modal fade " id="MuskaanModalToggle" aria-hidden="true" aria-labelledby="MuskaanModalToggleLabel" tabindex="-1">
+                                        <!-- <div class="modal fade " id="MuskaanModalToggle" aria-hidden="true" aria-labelledby="MuskaanModalToggleLabel" tabindex="-1">
                                             <div class="modal-dialog modal-dialog-centered">
                                                 <div class="modal-content" style="z-index: 4;">
-                                                    <form action="" method="POST">
+                                                    <form action="" method="POST"> -->
                                                         <!-- autocomplete="off" -->
-                                                        <div class="modal-header">
+                                                        <!-- <div class="modal-header">
                                                             <h5 class="modal-title" id="MuskaanModalToggleLabel">Aatmabodh 2022
                                                                 Registration Form</h5>
-                                                            <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                                        aria-label="Close"></button> -->
+                                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                        aria-label="Close"></button>
 
                                                             <a class="btn-close" data-bs-dismiss="modal" aria-label="close" href="#MuskaanModalToggle" role="button"></a>
                                                         </div>
@@ -642,18 +644,6 @@
                                                                 <option value="female">FEMALE</option>
                                                             </select>
                                                             <input type="tel" maxlength="8" name="u_prn" placeholder="PRN">
-                                                            <?php
-                                                            if ($r_set = $conn->query("SELECT * from department")) {
-                                                                echo "<select name='dept_id' id='sel'>";
-                                                                echo "<option value='' selected disabled hidden>Department</option>";
-                                                                while ($row = $r_set->fetch_assoc()) {
-                                                                    echo "<option value=" . $row['dept_id'] . ">" . $row['dept_name'] . "</option>";
-                                                                }
-                                                                echo "</select>";
-                                                            } else {
-                                                                echo $conn->error;
-                                                            }
-                                                            ?>
                                                             <select name="u_year" placeholder="Year" id="sel">
                                                                 <option value="" selected disabled hidden>Academic Year</option>
                                                                 <option value="Second">Second</option>
@@ -670,19 +660,6 @@
                                                             </select>
                                                             <input type="tel" maxlength="3" name="u_roll" placeholder="Roll Number">
                                                             <textarea name="u_addr" placeholder="Current Address" rows="2" cols="20" id="sel"></textarea>
-                                                            <?php
-                                                            if ($r_set = $conn->query("SELECT * from activity")) {
-                                                                echo "<select name='a_id' id='sel'>";
-                                                                echo "<option value='' selected disabled hidden>Activity</option>";
-                                                                while ($row = $r_set->fetch_assoc()) {
-                                                                    echo "<option value=" . $row['a_id'] . ">" . $row['a_name'] . "</option>";
-                                                                }
-                                                                echo "</select>";
-                                                            } else {
-                                                                echo $conn->error;
-                                                            }
-                                                            $conn->close();
-                                                            ?>
                                                         </div>
                                                         <div class="modal-footer">
                                                             <input type="submit" name="submit" value="SUBMIT">
@@ -690,7 +667,7 @@
                                                     </form>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </div> -->
                             </div>
                         </div>
                     </div>
