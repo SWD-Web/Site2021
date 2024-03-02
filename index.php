@@ -24,7 +24,7 @@
         /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-        #header {
+#header {
             height: 50px;
             /* position: fixed; */
             left: 0;
@@ -841,6 +841,13 @@
             font-size: 13px;
             color: #ddd;
         }
+        
+        /* .iframe-navbar{
+            height:60px;
+            width:98vw;
+            overflow-y: hidden;
+            border: none;
+        } */
     </style>
 </head>
 
@@ -863,6 +870,7 @@
                         <li><a href="./team/team_2021/index.html"
                                 style="text-decoration: none;">Team 2021</a></li>
                         <li><a href="./team/team_2022/index.html" style="text-decoration: none;">Team 2022</a></li>
+                        <li><a href="./team/team_2023/index.html" style="text-decoration: none;">Team 2023</a></li>
                     </ul>
                 </li>
                     <li class="dropdown"><a href="./flagship/flagship.html" style="text-decoration: none;"><span>Flagship Events</span> <i class="bi bi-chevron-down"></i></a>
@@ -894,6 +902,7 @@
             </div>
         </div>
     </header>
+    <!-- <iframe class="iframe-navbar" src="NavbarNew/index.html" style="border: none"></iframe> -->
     <!-- End Header -->
 
     <!-- who we are -->
