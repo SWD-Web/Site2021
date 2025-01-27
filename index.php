@@ -871,6 +871,8 @@
                                 style="text-decoration: none;">Team 2021</a></li>
                         <li><a href="./team/team_2022/index.html" style="text-decoration: none;">Team 2022</a></li>
                         <li><a href="./team/team_2023/index.html" style="text-decoration: none;">Team 2023</a></li>
+                        <li><a href="./team/team_2024/index.html" style="text-decoration: none;">Team 2024</a></li>
+
                     </ul>
                 </li>
                     <li class="dropdown"><a href="./flagship/flagship.html" style="text-decoration: none;"><span>Flagship Events</span> <i class="bi bi-chevron-down"></i></a>
@@ -916,7 +918,7 @@
                 strength of our committee lies in equality and unity amongst every member. We are always ready to do
                 someone a good turn to be good for society with no expectations in return.</p>
             <div class="container-fluid my-4">
-                <a class="button" href="team/index.html" role="button"><span style="text-transform: uppercase; font-weight: bold;">Meet the Team</span></a>
+                <a class="button" href="team\team_2024\index.html" role="button"><span style="text-transform: uppercase; font-weight: bold;">Meet the Team</span></a>
             </div>
         </div>
         <div class="image">
@@ -1006,7 +1008,7 @@
                         <h4>Useful Links</h4>
                         <ul>
                             <li><i class="bi bi-chevron-right"></i> <a href="./index.php" style="text-decoration: none;">Home</a></li>
-                            <li><i class="bi bi-chevron-right"></i> <a href="./team/team_2022/index.html" style="text-decoration: none;">Our Team</a></li>
+                            <li><i class="bi bi-chevron-right"></i> <a href="./team/team_2024/index.html" style="text-decoration: none;">Our Team</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="./Calender/cal.html" style="text-decoration: none;">Event Schedule</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="./flagship/flagship.html" style="text-decoration: none;">Flagship Events</a></li>
                             <li><i class="bi bi-chevron-right"></i> <a href="./GP2/index.php" style="text-decoration: none;">GP2 Activities</a></li>
@@ -1032,7 +1034,7 @@
                             Vishwakarma Institute of Technology<br>
                             666, Upper Indiranagar, Bibwewadi, <br>
                             Pune - 411 037 <br>
-                            <strong style="color:white">Phone:</strong> +91 73852 23242 / +91 93253 50665 <br>
+                            <strong style="color:white">Phone:</strong> +91 98239 05061 / +91 84597 90336 <br>
                             <strong style="color:white">Email:</strong> vitswd@vit.edu<br>
                         </p>
 
@@ -1051,7 +1053,7 @@
         </div>
         <div class="container">
             <div class="copyright">
-                &copy; 2021-22 Social Welfare & Development Committee, VIT Pune.
+                &copy; 2024-25 Social Welfare & Development Committee, VIT Pune.
             </div>
         </div>
     </footer><!-- End  Footer -->

@@ -1268,7 +1268,7 @@
         </div>
         <div class="container">
             <div class="copyright">
-                &copy; 2021-22 Social Welfare & Development Committee, VIT Pune.
+                &copy; 2024-25 Social Welfare & Development Committee, VIT Pune.
             </div>
         </div>
     </footer><!-- End  Footer -->
